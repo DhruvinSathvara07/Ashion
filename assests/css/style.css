@@ -1,0 +1,333 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+    ::selection {
+        user-select: none;
+    }
+}
+
+/* HEADER START */
+
+.navbar-hover :nth-child(1)::before,
+.navbar-hover a::before {
+    content: "";
+    width: 3.4rem;
+    height: 2px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    transition: all 0.3s linear;
+    background-color: #ca1515;
+}
+
+.navbar-hover a {
+    position: relative;
+}
+
+.navbar-hover a::before {
+    width: 0%;
+}
+
+.navbar-hover a:hover::before {
+    width: 80%;
+}
+
+/* HEADER END */
+
+/* MAIN SECTION START */
+
+/* GALLERY AREA START */
+.women-fashion {
+    background-image: url(../images/category-1.jpg.webp);
+}
+
+h2 {
+    font-family: "Cookie", cursive;
+}
+
+.gallery a {
+    position: relative;
+    font-weight: 600;
+}
+
+.gallery a::before {
+    content: "";
+    width: 6rem;
+    height: 2px;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    background-color: #ca1515;
+}
+
+.man-fashion,
+.Cosmetics,
+.Kid’s-fashion,
+.Accessories {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.man-fashion {
+    background-image: url(../images/category-2.jpg.webp);
+}
+
+
+.Cosmetics {
+    background-image: url(../images/category-3.jpg.webp);
+}
+
+.Kid’s-fashion {
+    background-image: url(../images/category-4.jpg.webp);
+}
+
+.Accessories {
+    background-image: url(../images/category-5.jpg.webp);
+}
+
+/* GALLERY AREA END */
+
+/* NEW PRODUCT SECTION START */
+.new-product {
+    position: relative;
+}
+
+.new-product::before {
+    content: "";
+    width: 4.5rem;
+    height: 2px;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    background-color: #ca1515;
+}
+
+.under-line {
+    border-bottom: 2px solid #ca1515;
+}
+
+.bg-img {
+    background-image: url(../images/product-1.jpg.webp);
+}
+
+.bg-img-2 {
+    background-image: url(../images/product-2.jpg.webp);
+}
+
+.bg-img-3 {
+    background-image: url(../images/product-3.jpg.webp);
+}
+
+.bg-img-4 {
+    background-image: url(../images/product-4.jpg.webp);
+}
+
+.bg-img-5 {
+    background-image: url(../images/product-5.jpg.webp);
+}
+
+.bg-img-6 {
+    background-image: url(../images/product-6.jpg.webp);
+}
+
+.bg-img-7 {
+    background-image: url(../images/product-7.jpg.webp);
+}
+
+.bg-img-8 {
+    background-image: url(../images/product-8.jpg.webp);
+}
+
+.bg-img,
+.bg-img-2,
+.bg-img-3,
+.bg-img-4,
+.bg-img-5,
+.bg-img-6,
+.bg-img-7,
+.bg-img-8 {
+    height: 40.5vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+
+    &:hover i {
+        margin: 310px 0px 0px 15px;
+    }
+}
+
+.hover-icon,
+.hover-icon-2,
+.hover-icon-3 {
+    margin: 400px 0px 0px 20px;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+    border-radius: 100%;
+    width: fit-content;
+    height: fit-content;
+    padding: 14px 15px 13px 15px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(210, 1, 1, 0.899);
+        color: white;
+        transform: rotate(360deg);
+    }
+}
+
+/* NEW PRODUCT SECTION END */
+
+/* THE COLLECTION SECTION START */
+
+.banner {
+    background-image: url(../images/banner-1.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 98vw;
+    height: 500px;
+}
+
+.swiper {
+    cursor: grab;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-container {
+    width: 50%;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.shop-now a::before {
+    left: 41%;
+}
+
+.text {
+    position: relative;
+    z-index: 9;
+}
+
+.text::before {
+    content: "";
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    width: 205px;
+    height: 210px;
+    z-index: -1;
+}
+
+.container {
+    color: #333;
+    margin: 0 auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+}
+
+li span {
+    font-size: 4.5rem;
+}
+
+/* THE COLLECTION SECTION END */
+
+/*PHOTOES SECTION START */
+
+.ig-img {
+    background-image: url(../images/insta-1.jpg);
+}
+
+.ig-img-2 {
+    background-image: url(../images/insta-2.jpg);
+}
+
+.ig-img-3 {
+    background-image: url(../images/insta-3.jpg);
+}
+
+.ig-img-4 {
+    background-image: url(../images/insta-4.jpg);
+}
+
+.ig-img-5 {
+    background-image: url(../images/insta-5.jpg);
+}
+
+.ig-img-6 {
+    background-image: url(../images/insta-6.jpg);
+}
+
+.photo .row .col-lg-2 {
+    background-color: rgba(255, 255, 255, 0.877);
+    background-blend-mode: normal;
+    height: 320px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo .row .col-lg-2:hover {
+    background-blend-mode: color;
+}
+
+.photo .row .col-lg-2:hover::before,
+.photo .row .col-lg-2:hover::after {
+    display: block;
+}
+
+.photo .row .col-lg-2::before {
+    content: "@ ashion_shop";
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    cursor: pointer;
+}
+
+.photo .row .col-lg-2::after {
+    content: "\f16d";
+    font-family: "Font Awesome 6 Brands";
+    font-size: x-large;
+    position: absolute;
+    display: none;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* PHOTOES SECTION END */
+
+/* MAIN END */
+
+/* FOOTER START */
+.icons .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* FOOTER END */
